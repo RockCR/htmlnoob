@@ -1,0 +1,13 @@
+package case;
+
+public class 2_03 {
+    public static void main(String[] args) {
+        byte b=127;int i=150;char c=10;float f=12f;
+        double d=45.45646;
+        System.out.println("byte和float运算结果:" +(b+f));
+        System.out.println("byte和int运算结果:" +(b+i));
+        System.out.println("byte和double运算结果:" +(b+d));
+        System.out.println("char和float运算结果:" +(c+f));
+
+    }
+}
